@@ -1,0 +1,17 @@
+.UsersList{
+    background-color: white;
+    width: 500px;
+    height: auto;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.UsersList .theUser {
+    border: 1px solid rgba(168, 168, 168, 0.628);
+    color: black;
+    padding: 5px;
+    margin: 10px;
+}

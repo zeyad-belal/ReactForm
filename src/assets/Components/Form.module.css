@@ -1,0 +1,32 @@
+form {
+  margin: 30px auto;
+  padding: 30px 40px;
+  gap: 10px;
+  min-height: 100px;
+  background-color: white;
+  width: 500px;
+  height: auto;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form input {
+  border: 1px solid #24242470;
+  border-radius: 6px;
+  height: 25px;
+}
+form label {
+  color: black;
+  font-weight: bold
+}
+form button {
+  align-self: flex-start;
+  color: white;
+  padding: 5px 15px;
+  background-color: darkcyan;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
